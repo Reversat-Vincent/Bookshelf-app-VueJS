@@ -1,0 +1,8 @@
+select {
+  appearance: none;
+  line-height: 1;
+}
+
+option {
+  background: var(--q-black-3);
+}

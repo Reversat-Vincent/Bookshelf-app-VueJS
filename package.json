@@ -1,0 +1,52 @@
+{
+  "name": "bookshelf-app",
+  "version": "0.0.1",
+  "description": "Bookshelf app",
+  "productName": "Bookshelf app",
+  "author": "Vincent Reversat <vincent.reversat@mailo.com>",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint -c ./eslint.config.js \"./src*/**/*.{js,cjs,mjs,vue}\" \"./mock/**/*.js\"",
+    "format": "prettier --write \"**/*.{js,vue,css,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "dev:mock": "quasar dev -- --mock",
+    "dev:mock:electron": "quasar dev -m electron -- --mock",
+    "build": "quasar build",
+    "postinstall": "quasar prepare"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "pinia": "^3.0.4",
+    "quasar": "^2.16.0",
+    "uuid": "^11.0.5",
+    "vue": "^3.4.18",
+    "vue-i18n": "^9.0.0",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@intlify/unplugin-vue-i18n": "^2.0.0",
+    "@quasar/app-vite": "^3.10.2",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^9.14.0",
+    "eslint-plugin-vue": "^10.11.1",
+    "globals": "^15.12.0",
+    "postcss": "^8.4.14",
+    "prettier": "^3.3.3",
+    "vite-plugin-checker": "^0.14.5"
+  },
+  "engines": {
+    "node": "^30 || ^28 || ^26 || ^24 || ^22.22.0",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "electron@33.4.11": true,
+    "esbuild@0.27.7": true,
+    "vue-demi@0.14.10": true
+  }
+}

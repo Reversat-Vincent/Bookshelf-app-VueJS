@@ -1,0 +1,74 @@
+[
+  {
+    "id": "working-class-heroic-fantasy",
+    "title": "Working Class Heroic Fantasy",
+    "rating": 5,
+    "type": "novel",
+    "chapter": null,
+    "volume": 1,
+    "parent": null
+  },
+  {
+    "id": "solo-leveling",
+    "title": "Solo Leveling",
+    "rating": null,
+    "type": "manhwa",
+    "chapter": 200,
+    "volume": 20,
+    "parent": null
+  },
+  {
+    "id": "solo-leveling-ragnarok",
+    "title": "Solo Leveling : Ragnarok",
+    "rating": null,
+    "type": "manhwa",
+    "chapter": 47,
+    "volume": null,
+    "parent": "solo-leveling"
+  },
+  {
+    "id": "les-chevaliers-demeraude",
+    "title": "Les Chevaliers d'Émeraude",
+    "rating": null,
+    "type": "novel",
+    "chapter": null,
+    "volume": 12,
+    "parent": null
+  },
+  {
+    "id": "les-heritiers-denkidiev",
+    "title": "Les Héritiers d'Enkidiev",
+    "rating": null,
+    "type": "novel",
+    "chapter": null,
+    "volume": 12,
+    "parent": "les-chevaliers-demeraude"
+  },
+  {
+    "id": "les-chevaliers-dantares",
+    "title": "Les Chevaliers d'Antarès",
+    "rating": null,
+    "type": "novel",
+    "chapter": null,
+    "volume": 12,
+    "parent": "les-chevaliers-demeraude"
+  },
+  {
+    "id": "tensei-shitara-slime-datta-ken",
+    "title": "Tensei Shitara Slime Datta Ken",
+    "rating": 5,
+    "type": "manga",
+    "chapter": null,
+    "volume": 30,
+    "parent": null
+  },
+  {
+    "id": "test",
+    "title": "Test",
+    "rating": 2,
+    "type": "manga",
+    "chapter": null,
+    "volume": null,
+    "parent": null
+  }
+]

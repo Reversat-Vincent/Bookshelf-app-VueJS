@@ -1,0 +1,60 @@
+.bg-primary {
+  background-color: var(--q-primary);
+}
+.text-primary {
+  color: var(--q-primary);
+}
+.bg-secondary {
+  background-color: var(--q-secondary);
+}
+.text-secondary {
+  color: var(--q-secondary);
+}
+.bg-success {
+  background-color: var(--q-success);
+}
+.text-success {
+  color: var(--q-success);
+}
+.bg-error {
+  background-color: var(--q-error);
+}
+.text-error {
+  color: var(--q-error);
+}
+.bg-white {
+  background-color: var(--q-white);
+}
+.text-white {
+  color: var(--q-white);
+}
+.bg-black-1 {
+  background-color: var(--q-black-1);
+}
+.text-black-1 {
+  color: var(--q-black-1);
+}
+.bg-black-2 {
+  background-color: var(--q-black-2);
+}
+.text-black-2 {
+  color: var(--q-black-2);
+}
+.bg-black-3 {
+  background-color: var(--q-black-3);
+}
+.text-black-3 {
+  color: var(--q-black-3);
+}
+.bg-black-4 {
+  background-color: var(--q-black-4);
+}
+.text-black-4 {
+  color: var(--q-black-4);
+}
+.bg-black-5 {
+  background-color: var(--q-black-5);
+}
+.text-black-5 {
+  color: var(--q-black-5);
+}

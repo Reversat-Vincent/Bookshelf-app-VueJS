@@ -1,0 +1,9 @@
+.app-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--q-white);
+  background: var(--q-primary);
+  border-radius: var(--br);
+  padding: 0.5rem;
+}

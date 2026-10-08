@@ -1,0 +1,72 @@
+@import './import.css';
+
+*,
+*::before,
+*::after {
+  font-family: Consolas, monospace;
+  font-size: var(--fs-m);
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Quasar (2.35+) puts the name of a font icon in a <span>: it must keep the icon font to show the icon */
+.q-icon > span {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+h1,
+h1 > * {
+  font-size: var(--fs-l);
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0;
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+h1 {
+  text-decoration: underline var(--q-primary);
+  text-underline-offset: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--fs-l);
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--q-white);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button {
+  line-height: 0;
+}

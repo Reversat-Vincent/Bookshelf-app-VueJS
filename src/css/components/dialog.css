@@ -1,0 +1,50 @@
+dialog {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  padding: 0.5rem;
+  border-radius: var(--br);
+  color: var(--q-white);
+  background-color: var(--q-black-2);
+  transform: translate(-50%, -50%);
+  max-height: 90vh;
+  max-width: 90vw;
+}
+
+dialog[open] {
+  display: flex;
+}
+
+/* Dialog backdrop */
+::backdrop {
+  background-color: var(--q-black-1);
+  opacity: 0.9;
+}
+
+/* Dialog transition */
+dialog.v-enter-active,
+dialog.v-leave-active {
+  transition: opacity 3.5s ease;
+}
+
+dialog.v-enter-from,
+dialog.v-leave-to {
+  opacity: 0;
+}
+
+.dialog-close {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  z-index: 2;
+}
+
+.dialog-desktop {
+  width: max-content;
+  height: 100%;
+}
+
+.dialog-mobile {
+  width: 100%;
+  height: max-content;
+}

@@ -1,0 +1,23 @@
+.app-notify-primary,
+.app-notify-secondary,
+.app-notify-success,
+.app-notify-error {
+  min-height: unset;
+  background-color: var(--q-black-1);
+}
+
+.app-notify-primary {
+  border: 1px solid var(--q-primary);
+}
+
+.app-notify-secondary {
+  border: 1px solid var(--q-secondary);
+}
+
+.app-notify-success {
+  border: 1px solid var(--q-success);
+}
+
+.app-notify-error {
+  border: 1px solid var(--q-error);
+}

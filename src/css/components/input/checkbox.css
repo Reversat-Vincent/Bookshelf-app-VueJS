@@ -1,0 +1,14 @@
+input[type='checkbox'] {
+  appearance: auto;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: top;
+  border: 1px solid var(--q-black-1);
+  border-radius: var(--br);
+  margin: calc(0.25rem + 1px) 0;
+  accent-color: var(--q-primary);
+}
+
+input[type='checkbox']:focus {
+  cursor: pointer;
+}
